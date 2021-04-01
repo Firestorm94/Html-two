@@ -172,3 +172,72 @@ body {
     text-align: center;
     color: #F1E4E6;
 }
+
+.foot__fetish {
+    Height: 448px;
+    display: flex;
+    background-image: url(../img/foot-fon2.jpg);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot__down {
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75px;
+
+}
+
+.foot__info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foot__text {
+    color: white;
+}
+
+.foot__li {
+    width: 25px;
+    height: 15px;
+    background-color: var(--gray-color);
+    margin: 5%;
+    padding: 5%;
+}
+
+.head__reg {
+    padding-top: 50px;
+    padding-left: 200px;
+    width: 1050px;
+    height: 60px;
+    background-color: rgba(212, 207, 207, 0.527)
+}
+
+.registration__head {
+    color: var(--dark-pink-color)
+}
+
+.container__reg {
+    display: flex;
+
+}
+
+label {
+    display: block;
+}
+
+.body__reg {
+    padding-left: 10%;
+    margin-right: 10%;
+}
+
+li::before {
+    content: url(../img/Vector.svg);
+    padding-right: 7px;
+}
+
+.reg__before {
+    margin: auto;
+}
