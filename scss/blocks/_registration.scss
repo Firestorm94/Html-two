@@ -1,0 +1,34 @@
+.head__reg {
+    padding-top: 50px;
+    padding-left: 200px;
+    width: 1050px;
+    height: 60px;
+    background-color: rgba(212, 207, 207, 0.527)
+}
+
+.registration__head {
+    color: var(--dark-pink-color)
+}
+
+.container__reg {
+    display: flex;
+
+}
+
+label {
+    display: block;
+}
+
+.body__reg {
+    padding-left: 10%;
+    margin-right: 10%;
+}
+
+li::before {
+    content: url(../img/Vector.svg);
+    padding-right: 7px;
+}
+
+.reg__before {
+    margin: auto;
+}

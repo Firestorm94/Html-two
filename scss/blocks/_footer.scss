@@ -1,0 +1,35 @@
+.foot {
+&__fetish {
+    Height: 448px;
+    display: flex;
+    background-image: url(../img/foot-fon2.jpg);
+    justify-content: space-around;
+    align-items: center;
+}
+
+&__down {
+    background-color: $black-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75px;
+
+}
+
+&__info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+&__text {
+    color: white;
+}
+
+&__li {
+    width: 25px;
+    height: 15px;
+    background-color: $gray-color;
+    margin: 5%;
+    padding: 5%;
+}
+}

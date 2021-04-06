@@ -1,0 +1,29 @@
+.header {
+    background-color: $black-color;
+
+
+    &__navigation {
+        display: none;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 75px;
+    }
+
+    &__logo {
+        margin: 0 41px 0 0;
+    }
+
+    &__button {
+        background: transparent;
+        border: none;
+        margin: 0 33px 0 0;
+    }
+
+    &__link {
+        margin: 0 33px 0 0;
+    }
+}

@@ -1,0 +1,16 @@
+.widget {
+    background-color: $black-color;
+    height: 220px;
+    margin-top: 103px;
+    padding-top: 100px;
+
+    &__container {
+        display: flex;
+        justify-content: Space-around;
+    }
+
+    &__item {
+        text-align: center;
+        color: #F1E4E6;
+    }
+}
