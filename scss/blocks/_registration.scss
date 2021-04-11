@@ -24,11 +24,7 @@ label {
     margin-right: 10%;
 }
 
-li::before {
-    content: url(../img/Vector.svg);
-    padding-right: 7px;
-}
-
-.reg__before {
-    margin: auto;
+.loyalty_item::before {
+    content: url(/img/Vec.svg);
+    padding-right: 24px;
 }

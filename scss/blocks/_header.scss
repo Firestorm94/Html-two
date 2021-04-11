@@ -27,3 +27,23 @@
         margin: 0 33px 0 0;
     }
 }
+
+@media (max-width: $desktop-width) {
+    .header {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .header {
+        padding: 0 16px;
+
+        &__link {
+            display: none;
+        }
+
+        &__link-opacity {
+            display: none;
+        }
+    }
+}
