@@ -70,38 +70,38 @@
             <form action="#" class="body__reg">
                 <fieldset>
                 <div>
-                <legend>Your Name</legend>
+                <legend class="form__title">Your Name</legend>
                 <p>
                 <label for="name"></label>
-                <input id="name" type="text" placeholder="First Name">
+                <input id="name" type="text" placeholder="First Name" class="form__field">
                 </p>
             </div>
                 <div> 
                 <p>
                 <label for="name"></label>
-                <input id="name" type="text" placeholder="Last Name">
+                <input id="name" type="text" placeholder="Last Name" class="form__field">
             </p>
                 </div>
-                <div>
+                <div class="input__ind">
         <input class="radio" type="radio" name="browser" value="m" id="m"> 
         <label class="radio-label" for="male">Mail</label>
         <input class="radio" type="radio" name="browser" value="f" id="f">
         <label class="radio-label" for="female">Female</label>
                 </div>
                 <div> 
-                <legend>Login details</legend>
+                <legend class="form__title">Login details</legend>
 
                     <label for="email"></label>
-                    <input id="email" type="email" required placeholder="Email">
+                    <input id="email" type="email" required placeholder="Email" class="form__field">
                     
                 </div>
                 <div>
                     <label for="password"></label>
-                    <input id="password" type="password" required placeholder="Password">
-                    <p>Please use 8 or more characters, with at least 1 number and a<br> mixture of uppercase and lowercase letters</p>
+                    <input id="password" type="password" required placeholder="Password" class="form__field">
+                    <p class="form__text">Please use 8 or more characters, with at least 1 number and a<br> mixture of uppercase and lowercase letters</p>
                 </div> 
                 </fieldset>
-                <button type="submit">JOIN NOW</button>
+                <a href="#" class="form__link">join now</a>
                 
             </fieldset>
             </form>
@@ -112,16 +112,16 @@
 Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:
 </p>
 <ul>
-<li class="loyalty_item">15% off welcome offer</li>
-<li class="loyalty_item">shipping, returns and exchanges on all orders</li>
-<li class="loyalty_item">$10 off a purchase on your birthday</li>
-<li class="loyalty_item">Early access to products</li>
-<li class="loyalty_item">Exclusive offers & rewards</li>
+<li class="loyalty__item">15% off welcome offer</li>
+<li class="loyalty__item">shipping, returns and exchanges on all orders</li>
+<li class="loyalty__item">$10 off a purchase on your birthday</li>
+<li class="loyalty__item">Early access to products</li>
+<li class="loyalty__item">Exclusive offers & rewards</li>
 </ul>
         </div>
     </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
             <div class="foot__fetish">
             <div>
@@ -131,8 +131,8 @@ Get in on the loyalty program where you can earn points and unlock serious perks
                 <form action="#">
                     <div> 
                         <label for="email"></label>
-                        <input id="email" type="email" required>
-                        <button type="submit">Subscribe</button>
+                        <input class="subscribe__send" id="email" type="email" required>
+                        <button type="submit" class="subscribe__button">Subscribe</button>
                     </div>
                 </form>
             </div>

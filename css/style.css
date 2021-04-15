@@ -369,6 +369,23 @@ body {
   }
 }
 
+.products__button {
+  width: 211px;
+  height: 47px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #F26376;
+  border-color: #F26376;
+  margin-top: 49px;
+  margin-bottom: 20px;
+  margin-left: 45%;
+}
+
+.products__button:hover {
+  background-color: pink;
+}
+
 .product__button {
   display: none;
 }
@@ -474,6 +491,30 @@ body {
   padding: 5%;
 }
 
+.subscribe__send {
+  width: 323px;
+  height: 49px;
+  background-color: #E1E1E1;
+  padding: 7px 64px 6px 22px;
+  border-style: none;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+}
+
+.subscribe__button {
+  width: 100px;
+  height: 62px;
+  margin-left: -20px;
+  font-size: 14px;
+  font-weight: 400;
+  border-style: none;
+  outline: none;
+  padding: 7px 7px 6px 8px;
+  color: #FFFFFF;
+  background-color: #F16D7F;
+  border-radius: 0 25px 25px 0;
+}
+
 .head__reg {
   padding-top: 50px;
   padding-left: 200px;
@@ -494,13 +535,70 @@ label {
   display: block;
 }
 
+.input__ind {
+  display: flex;
+}
+
 .body__reg {
   padding-left: 10%;
   margin-right: 10%;
 }
 
-.loyalty_item::before {
+.form__field {
+  width: 36%;
+  height: 44px;
+  top: 327px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: #B1B1B1;
+  padding: 13px 274px 16px 17px;
+  margin-bottom: 21px;
+}
+
+.form__link {
+  width: 167px;
+  height: 50px;
+  color: white;
+  background-color: #F16D7F;
+  text-transform: uppercase;
+  padding: 16px 66px 17px 29px;
+  text-decoration: none;
+}
+
+.form__text {
+  width: 359px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #B1B1B1;
+  margin-top: 16px;
+  margin-bottom: 39px;
+}
+
+.form__title {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 300;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 21px;
+}
+
+.loyalty {
+  position: relative;
+}
+
+.reg__before {
+  position: relative;
+}
+
+.loyalty__item::before {
   content: url(/img/Vec.svg);
+  position: absolute;
+  display: inline-block;
   padding-right: 24px;
 }
 /*# sourceMappingURL=style.css.map */

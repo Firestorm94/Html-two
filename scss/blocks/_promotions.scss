@@ -60,3 +60,20 @@
         }
     }
 }
+
+.products__button {
+    width: 211px;
+    height: 47px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #F26376;
+    border-color: #F26376;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+
+.products__button:hover {
+    background-color: pink;
+}
