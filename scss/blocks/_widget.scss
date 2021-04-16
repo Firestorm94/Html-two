@@ -1,0 +1,26 @@
+.widget {
+    max-width: 1500px;
+
+    &__container {
+        background-color: $black-color;
+        max-height: 220px;
+        margin-top: 103px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        color: #F1E4E6;
+
+
+
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            min-height: 247px;
+            margin: 0 0 32px;
+        }
+    }
+}

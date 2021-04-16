@@ -1,0 +1,96 @@
+.head__reg {
+    padding-top: 50px;
+    padding-left: 200px;
+    width: 1050px;
+    height: 60px;
+    background-color: rgba(212, 207, 207, 0.527)
+}
+
+.registration__head {
+    color: var(--dark-pink-color)
+}
+
+.container__reg {
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+label {
+    display: block;
+}
+
+.input__ind {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.body__reg {
+    padding-left: 10%;
+    margin-right: 10%;
+}
+
+.form__field {
+    width: 36%;
+    height: 44px;
+    top: 327px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    color: #B1B1B1;
+    padding: 13px 274px 16px 17px;
+    margin-bottom: 21px;
+}
+
+.form__link {
+    width: 167px;
+    height: 50px;
+    color: white;
+    background-color: #F16D7F;
+    text-transform: uppercase;
+    padding: 16px 66px 17px 29px;
+    text-decoration: none;
+
+}
+
+.form__text {
+    width: 359px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: #B1B1B1;
+    margin-top: 16px;
+    margin-bottom: 39px;
+}
+
+.form__title {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 21px;
+}
+
+.loyalty {
+    margin-left: 3%;
+}
+
+.loyalty__item {
+    position: relative;
+}
+
+.loyalty__item:before {
+    content: "";
+    position: absolute;
+    background-image: url(/img/vect.png);
+    width: 20px;
+    height: 20px;
+    left: -22px;
+    background-color: yellow;
+
+
+}
