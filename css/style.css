@@ -292,6 +292,10 @@ body {
   color: #F16D7F;
 }
 
+.brand .brand__pink-sub-title {
+  color: #F16D7F;
+}
+
 .brand__img {
   width: 50%;
   height: auto;
@@ -309,6 +313,10 @@ body {
 
 .promotions__title {
   color: white;
+}
+
+.promotions .promotions__text {
+  color: #F16D7F;
 }
 
 .promotions__list {
@@ -345,22 +353,30 @@ body {
 .promotions__item--woman {
   background-image: url("../img/promotions-woman.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .promotions__item--man {
   background-image: url("../img/promotions-man.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .promotions__item--kids {
   background-image: url("../img/promotions-kids.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .promotions__item--accesories {
   background-image: url("../img/promotions-accesories.jpg");
   background-size: cover;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 1600px) {
@@ -420,6 +436,12 @@ body {
   .products__item {
     width: 100%;
   }
+}
+
+.products__description {
+  text-align: center;
+  margin-top: 96px;
+  margin-bottom: 48px;
 }
 
 .widget {
@@ -529,6 +551,8 @@ body {
 
 .container__reg {
   display: flex;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 label {
@@ -537,6 +561,7 @@ label {
 
 .input__ind {
   display: flex;
+  margin-bottom: 10%;
 }
 
 .body__reg {
@@ -588,17 +613,20 @@ label {
 }
 
 .loyalty {
+  margin-left: 3%;
+}
+
+.loyalty__item {
   position: relative;
 }
 
-.reg__before {
-  position: relative;
-}
-
-.loyalty__item::before {
-  content: url(/img/Vec.svg);
+.loyalty__item:before {
+  content: "";
   position: absolute;
-  display: inline-block;
-  padding-right: 24px;
+  background-image: url(/img/vect.png);
+  width: 20px;
+  height: 20px;
+  left: -22px;
+  background-color: yellow;
 }
 /*# sourceMappingURL=style.css.map */

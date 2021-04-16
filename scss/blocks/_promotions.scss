@@ -8,6 +8,10 @@
 
     }
 
+    .promotions__text {
+        color: $dark-pink-color;
+    }
+
     &__list {
         display: flex;
         justify-content: space-between;
@@ -38,22 +42,30 @@
     &__item--woman {
         background-image: url("../img/promotions-woman.jpg");
         background-size: cover;
+        display: flex;
+        flex-direction: column;
     }
 
     &__item--man {
         background-image: url("../img/promotions-man.jpg");
         background-size: cover;
+        display: flex;
+        flex-direction: column;
     }
 
     &__item--kids {
         background-image: url("../img/promotions-kids.jpg");
         background-size: cover;
+        display: flex;
+        flex-direction: column;
     }
 
     &__item--accesories {
         background-image: url("../img/promotions-accesories.jpg");
         background-size: cover;
         width: 100%;
+        display: flex;
+        flex-direction: column;
 
         @include tablet {
             min-height: 116px;

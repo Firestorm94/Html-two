@@ -12,6 +12,8 @@
 
 .container__reg {
     display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
 
 }
 
@@ -21,6 +23,7 @@ label {
 
 .input__ind {
     display: flex;
+    margin-bottom: 10%;
 }
 
 .body__reg {
@@ -73,16 +76,21 @@ label {
 }
 
 .loyalty {
+    margin-left: 3%;
+}
+
+.loyalty__item {
     position: relative;
 }
 
-.reg__before {
-    position: relative
-}
-
-.loyalty__item::before {
-    content: url(/img/Vec.svg);
+.loyalty__item:before {
+    content: "";
     position: absolute;
-    display: inline-block;
-    padding-right: 24px;
+    background-image: url(/img/vect.png);
+    width: 20px;
+    height: 20px;
+    left: -22px;
+    background-color: yellow;
+
+
 }
