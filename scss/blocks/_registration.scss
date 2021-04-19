@@ -14,7 +14,6 @@
     display: flex;
     margin-bottom: 5%;
     margin-top: 5%;
-
 }
 
 label {
@@ -52,7 +51,6 @@ label {
     text-transform: uppercase;
     padding: 16px 66px 17px 29px;
     text-decoration: none;
-
 }
 
 .form__text {
@@ -76,21 +74,18 @@ label {
 }
 
 .loyalty {
-    margin-left: 3%;
+    list-style-type: none;
 }
 
 .loyalty__item {
     position: relative;
+    margin-left: 20px;
 }
 
-.loyalty__item:before {
-    content: "";
-    position: absolute;
-    background-image: url(/img/vect.png);
+.loyalty__item::before {
+    content: "\2714";
     width: 20px;
     height: 20px;
-    left: -22px;
-    background-color: yellow;
-
-
+    position: absolute;
+    left: -20px;
 }
