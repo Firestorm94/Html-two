@@ -400,6 +400,8 @@ body {
 
 .products__button:hover {
   background-color: pink;
+  color: white;
+  border: none;
 }
 
 .product__button {
@@ -413,6 +415,18 @@ body {
 .product__description {
   background: #F8F8F8;
   padding: 25px 29px 20px 17px;
+}
+
+.product__title {
+  color: #222222;
+}
+
+.product__text {
+  color: gray;
+}
+
+.product__price {
+  color: #F16D7F;
 }
 
 .products__list {
@@ -453,7 +467,7 @@ body {
   max-height: 220px;
   margin-top: 103px;
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -546,7 +560,7 @@ body {
 }
 
 .registration__head {
-  color: var(--dark-pink-color);
+  color: #F16D7F;
 }
 
 .container__reg {
