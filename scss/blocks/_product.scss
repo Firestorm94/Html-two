@@ -11,4 +11,16 @@
         background: $gray-color;
         padding: 25px 29px 20px 17px;
     }
+
+    &__title {
+        color: $black-color;
+    }
+
+    &__text {
+        color: gray;
+    }
+
+    &__price {
+        color: $dark-pink-color;
+    }
 }
