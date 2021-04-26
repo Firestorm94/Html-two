@@ -1,2 +1,1 @@
-Учебный проект#shop-test
-# Shop-lessons
+# Вебинарный сайт GB
